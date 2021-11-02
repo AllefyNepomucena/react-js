@@ -3,10 +3,12 @@ const path = requise('path')
 module.exports={
     entry : path.resolve(__dirname ,'src','index.js'),
     output:{
-        path: path.resolve(__dirname,'public'),
+        path: path.resolve(__dirnamedirname ,'public'),
         filename: 'bundle.js'
     },
-    module:{
+
+
+   module:{
         rules:[
             {
                 test:/\.js$/,
@@ -22,5 +24,3 @@ module.exports={
     }
 
 }
-
- 
