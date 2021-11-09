@@ -6,9 +6,16 @@ module.exports={
         path: path.resolve(__dirname ,'public'),
         filename: 'bundle.js'
     },
+<<<<<<< Updated upstream
     devServer:{
        contentBase: path.resolve(__dirname ,'public')
     },
+=======
+
+   devServer:{
+       contentBase:path.resolve(__dirname, 'public')
+   },
+>>>>>>> Stashed changes
 
     module: {
        
